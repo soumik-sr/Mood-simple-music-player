@@ -10,14 +10,14 @@ let nextButton = document.getElementById('NextButton')
 let previousButton = document.getElementById('PreviousButton')
 
 // initiallsing the songs 
-let songs = [{songName:"Night-Changes", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"Hold my hand", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"Sanam-Mix", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"Ye raate", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"phela", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"phela 2", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"Night-Changes", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"Night-Changes", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
+let songs = [{songName:"Night-Changes", filePath:"1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"Hold my hand", filePath:"1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"Sanam-Mix", filePath:"1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"Ye raate", filePath:"1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"phela", filePath:"1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"phela 2", filePath:"1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"Night-Changes", filePath:"1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"Night-Changes", filePath:"1.mp3", coverPath:"covers/1.jpg"},
     // {songName:"Night-Changes", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
 ];
 songItem.forEach((element,i)=>{

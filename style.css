@@ -147,3 +147,98 @@ nav ul li a{
     cursor: pointer;
 }
 
+/* Make site responsive on smaller screens */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #navcontainter {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #navcontainter ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #login {
+        margin-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #home {
+        height: auto;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .songContainer {
+        margin-left: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .songItem {
+        width: 80vw;
+    }
+
+    .bottom {
+        height: auto;
+        padding: 10px;
+    }
+
+    #MyProgressBar {
+        width: 90vw;
+    }
+
+    .icons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #logo a {
+        font-size: 2rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    #login button {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+    .songItem {
+        width: 90vw;
+    }
+
+    .songName {
+        font-size: 1rem;
+    }
+
+    .icons {
+        gap: 5px;
+    }
+}
+
+
